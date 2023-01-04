@@ -1,0 +1,765 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Poppins:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: content-box;
+}
+
+html {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  background-color: #f53924;
+  width: 10vh;
+  height: 2px;
+  border: none;
+  margin-top: 1vh;
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #ec5242;
+  z-index: 1;
+}
+
+.desktop-menu-div {
+  display: none;
+}
+
+.navbar-lines-div-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 12vh;
+  height: 100%;
+  cursor: pointer;
+}
+
+.lines {
+  width: 45%;
+  margin-top: 5px;
+  height: 9%;
+  background-color: rgba(0, 0, 0, 0.749);
+}
+
+/* mobile menu */
+
+.mobile-menu {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 2;
+  background-image: url("assets/images/mobile\ homepage\ background.png");
+}
+
+.mobile-menu-disappear-btn {
+  align-self: flex-end;
+  width: 4vh;
+  height: 4vh;
+  margin: 20px;
+  border-radius: 50%;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.menu-span {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 10vh;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid black;
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-span:hover {
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+.mobile-menu-appear {
+  display: flex;
+}
+
+.menu-home {
+  display: none;
+}
+
+.menu-home-appear {
+  display: flex;
+}
+
+.menu-about {
+  display: flex;
+}
+
+.menu-about-disappear {
+  display: none;
+}
+
+/* main */
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* home page */
+
+.home-page-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-page-section-disappear {
+  display: none;
+}
+
+.home-info-background {
+  background-image: url("assets/images/mobile\ homepage\ background.png");
+  width: 100%;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15vh;
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 92%;
+}
+
+.homepage-info-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.homepage-info {
+  border: 5px solid white;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  margin: 4vh 2vh 4vh 2vh;
+  color: #172b4d;
+}
+
+.info-date-div {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.info-date {
+  font-size: x-large;
+  font-weight: 900 !important;
+  font-family: "Combo", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.stadiums-info {
+  font-size: 15px;
+  margin-top: 1vh;
+  font-weight: 700 !important;
+}
+
+.highlights-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("assets/images/Small\ square\ for\ background.png");
+  width: 100%;
+}
+
+.header-highlights {
+  margin-top: 4vh;
+  color: white;
+  font-size: x-large;
+}
+
+.Highlights-divs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.Highlights-divs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  height: 12vh;
+  margin-top: 1vh;
+  background-color: rgba(255, 255, 255, 0.122);
+  color: white;
+  font-size: 11px;
+  padding: 5px;
+}
+
+.highlights-icons {
+  justify-self: flex-start;
+  height: 50%;
+}
+
+.highlights {
+  color: #f53924;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.highlights-span-seeDetail {
+  display: none;
+}
+
+.buy-tickets-button {
+  margin: 8vh 0 4vh 0;
+  width: 27vh;
+  height: 8vh;
+  background-color: #ec5242;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+.top-players-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-players-header {
+  font-size: x-large;
+  margin-top: 3vh;
+}
+
+.top-players-info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-players-container-for-desktop {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-players-info-divs {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin-top: 10vh;
+  position: relative;
+  z-index: -1;
+}
+
+.img-transparent-bkgrnd {
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  z-index: -1;
+}
+
+.players-images {
+  width: 20vh;
+  height: 20vh;
+  padding: 10px;
+}
+
+.players-name {
+  font-size: 23px;
+}
+
+.players-country {
+  color: #f53924;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.players-description {
+  font-size: 14px;
+}
+
+@media (max-width: 420px) {
+  .img-transparent-bkgrnd {
+    width: 17vh;
+    height: 18vh;
+  }
+
+  .players-images {
+    height: 18vh;
+    width: 17vh;
+  }
+}
+
+.home-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.home-footer-logo {
+  height: 8vh;
+  padding: 10px;
+}
+
+.home-footer-text {
+  font-size: 12px;
+}
+
+/* about */
+
+.about-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about-section-apper {
+  display: flex;
+}
+
+.about-info-background {
+  background-image: url("assets/images/mobile\ homepage\ background.png");
+  width: 100%;
+}
+
+.about-section-header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15vh;
+}
+
+.about-section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.Welcome-to {
+  display: flex;
+  align-self: start;
+  color: #f53924;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.ICC-Mens {
+  width: 100%;
+  color: transparent;
+  font-size: 1.55rem !important;
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("assets/images/text\ background\ img.jpg");
+  background-position: bottom center;
+  background-size: contain;
+}
+
+.about-info-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-info {
+  border: 5px solid white;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  margin: 4vh 2vh 4vh 2vh;
+  color: #172b4d;
+}
+
+.further-inquiries {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 92%;
+  margin-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+/* about logo */
+
+.about-logo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.about-logo-header {
+  margin-top: 2vh;
+  font-size: x-large;
+  font-weight: 900 !important;
+  font-family: "Combo", cursive;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.info-about-logo {
+  margin-top: 5vh;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.worldcup-logo-img {
+  margin: 2vh 0 2vh 0;
+  width: 20vh;
+  border: 1px solid black;
+}
+
+.worldcup-past-winners-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.past-worldcup-winners-header {
+  width: 35vh;
+  margin-top: 2vh;
+  font-size: x-large;
+  font-weight: 900 !important;
+  font-family: "Combo", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.past-worldcup-winners-info {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.worldcup-past-winners-images {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.past-worldcup-winners-imgs-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.past-worldcup-winners-imgs {
+  width: 100%;
+  height: 100%;
+}
+
+.past-worldcup-winners-dates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #ec5342ba;
+  position: absolute;
+}
+
+/* partners&sponsors */
+
+.partnersNdsponsors-div-container-home {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+}
+
+.partnersNdsponsors-div-container-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+}
+
+.partnersNdsponsors-header {
+  font-size: x-large;
+  font-weight: 500 !important;
+  font-family: "Combo", cursive;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.partnersNdsponsors-logos-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.partnersNdsponsors-logo {
+  width: 10vh;
+  padding: 5px;
+}
+
+/* about footer */
+
+.about-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.about-footer-logo {
+  height: 8vh;
+  padding: 10px;
+}
+
+.about-footer-text {
+  font-size: 12px;
+}
+
+/* for desktop */
+
+@media (min-width: 768px) {
+  hr {
+    width: 20vh;
+    height: 3px;
+  }
+
+  nav {
+    background-color: white;
+  }
+
+  .desktop-menu-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-menu-worldcup-logo {
+    padding: 0 0 0 30px;
+    height: 100%;
+  }
+
+  .desktop-menu-tags-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    padding: 0 8vh 0 0;
+  }
+
+  .menu-home-desktop {
+    display: none;
+  }
+
+  .menu-home-desktop-appear {
+    display: flex;
+  }
+
+  .menu-about-desktop {
+    display: flex;
+  }
+
+  .menu-about-desktop-disappear {
+    display: none;
+  }
+
+  .desktop-menu-tags {
+    color: black;
+    text-decoration: none;
+  }
+
+  .desktop-menu-tags:hover {
+    color: #ec5242;
+  }
+
+  .menu-latesnews-desktop {
+    padding: 10px;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+  }
+
+  .menu-latesnews-desktop:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+  }
+
+  .navbar-lines-div-mobile {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .home-info-background {
+    background-image: url("assets/images/Desktop-Background.png");
+  }
+
+  .homepage-info {
+    align-self: start;
+    width: 80vh;
+    margin-left: 5vh;
+  }
+
+  .highlights-container {
+    width: 100%;
+  }
+
+  .Highlights-divs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .Highlights-divs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 16%;
+    height: 30vh;
+    margin: 3px;
+  }
+
+  .highlights-icons {
+    width: 50%;
+    height: auto;
+  }
+
+  .highlights-span-seeDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 7vh;
+    cursor: pointer;
+  }
+
+  .highlights-span-seeDetail:hover {
+    color: #ec5242;
+  }
+
+  .buy-tickets-button {
+    display: none;
+  }
+
+  .partnersNdsponsors-div-container-home {
+    display: flex;
+  }
+
+  .top-players-info-container {
+    flex-wrap: wrap;
+  }
+
+  .top-players-container-for-desktop {
+    flex-direction: row;
+  }
+
+  .top-players-info-divs {
+    margin-top: 5vh;
+    margin-left: 15px;
+  }
+
+  .past-worldcup-winners-header {
+    display: flex;
+    justify-content: center;
+    width: 55vh;
+  }
+
+  .worldcup-past-winners-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: row;
+  }
+
+  .past-worldcup-winners-imgs-div {
+    width: 30vh;
+    height: 20vh;
+    margin: 10px;
+  }
+
+  .partnersNdsponsors-div-container-about {
+    display: none;
+  }
+
+  .about-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+  }
+}
