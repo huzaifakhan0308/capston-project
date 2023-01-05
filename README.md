@@ -17,9 +17,23 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Project <a name="about-project"></a>
+# HTML_CSS_JAVASCRIPT-PROJECT
 
-> capston project built-with html css and javaScript
+> This Module 1 capstone projects seeks to test and put to practice my knowledge of HTML, CSS and JavaScript which I learned throughout the module.
+
+- There are two pages; The Home Page and The About Page 
+
+- The project has both mobile and desktop view.
+
+- Some sections of the project have a grid view in column for mobile and a grid view in rows for desktop.
+
+- The project has a navigation menu button (hamburger button) that opens a menu that contains links to different parts of the project. 
+
+- Both the Home and About Pages have a fixed navigation bar in desktop view
+
+- The Top Players's section created dynamically using JavaScript
+
+- More details about the project can be seen in this [video](https://www.loom.com/share/cfd65696b3314128938e2a5cf9ab8760) 
 
 ## 🛠 Built With <a name="built-with"></a>
 

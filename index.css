@@ -305,8 +305,8 @@ main {
 
 .img-transparent-bkgrnd {
   position: absolute;
-  width: 20vh;
-  height: 20vh;
+  width: 10vh;
+  height: 10vh;
   z-index: -1;
 }
 
@@ -333,8 +333,8 @@ main {
 
 @media (max-width: 420px) {
   .img-transparent-bkgrnd {
-    width: 17vh;
-    height: 18vh;
+    width: 7vh;
+    height: 8vh;
   }
 
   .players-images {
@@ -351,6 +351,7 @@ main {
   width: 100%;
   height: auto;
   background-color: black;
+  color: white;
 }
 
 .home-footer-logo {
@@ -644,6 +645,8 @@ main {
 
   .desktop-menu-tags:hover {
     color: #ec5242;
+    transform: scale(1.2);
+    transition: 0.1s ease-in-out;
   }
 
   .menu-latesnews-desktop {
@@ -735,6 +738,14 @@ main {
     margin-left: 15px;
   }
 
+  .home-footer {
+    background-color: white;
+  }
+
+  .home-footer-text {
+    color: black;
+  }
+
   .past-worldcup-winners-header {
     display: flex;
     justify-content: center;
@@ -760,6 +771,10 @@ main {
   }
 
   .about-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.88);
+  }
+
+  .about-footer-text {
+    color: white;
   }
 }
