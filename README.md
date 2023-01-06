@@ -57,7 +57,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](http://127.0.0.1:5501/index.html)
+- [Live Demo Link](https://huzaifakhan0308.github.io/capston-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
