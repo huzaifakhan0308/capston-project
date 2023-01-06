@@ -47,9 +47,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Home and About pages]**
+- **[Transition and Animation]**
+- **[Added mobile-menu using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,9 +107,7 @@ This project is solo
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Trying to learn more about JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,6 +134,7 @@ If you like this project stars the repo.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-> I would like to thank...shayan my czn
+- I would like to credit Cindy SHin for the amazing Behance design that my project is based off
+- I would like to thank my coding partners, standup partners every code reviewer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
