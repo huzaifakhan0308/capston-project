@@ -17,9 +17,23 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Project <a name="about-project"></a>
+# HTML_CSS_JAVASCRIPT-PROJECT
 
-> capston project built-with html css and javaScript
+> This Module 1 capstone projects seeks to test and put to practice my knowledge of HTML, CSS and JavaScript which I learned throughout the module.
+
+- There are two pages; The Home Page and The About Page 
+
+- The project has both mobile and desktop view.
+
+- Some sections of the project have a grid view in column for mobile and a grid view in rows for desktop.
+
+- The project has a navigation menu button (hamburger button) that opens a menu that contains links to different parts of the project. 
+
+- Both the Home and About Pages have a fixed navigation bar in desktop view
+
+- The Top Players's section created dynamically using JavaScript
+
+- More details about the project can be seen in this [video](https://www.loom.com/share/cfd65696b3314128938e2a5cf9ab8760) 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,9 +47,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Home and About pages]**
+- **[Transition and Animation]**
+- **[Added mobile-menu using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +99,12 @@ npm run eslint
 
 > Mention all of the collaborators of this project.
 
-This project is solo
+
+👤 **Author1**
+
+- GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
+- Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
+- LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> top</a>)</p>
 
@@ -93,9 +112,7 @@ This project is solo
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Trying to learn more about JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +130,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project stars the repo.
+- If you like this project stars the repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +139,15 @@ If you like this project stars the repo.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-> I would like to thank...shayan my czn
+- I would like to credit Cindy SHin for the amazing Behance design that my project is based off
+- I would like to thank my coding partners, standup partners every code reviewer
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

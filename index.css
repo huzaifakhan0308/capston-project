@@ -240,6 +240,11 @@ main {
   color: white;
   font-size: 11px;
   padding: 5px;
+  cursor: pointer;
+}
+
+.Highlights-divs:hover {
+  border: 1px solid white;
 }
 
 .highlights-icons {
@@ -296,17 +301,19 @@ main {
 .top-players-info-divs {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 94%;
   height: auto;
   margin-top: 10vh;
   position: relative;
   z-index: -1;
+  padding-left: 1vh;
+  padding-right: 1vh;
 }
 
 .img-transparent-bkgrnd {
   position: absolute;
-  width: 20vh;
-  height: 20vh;
+  width: 10vh;
+  height: 10vh;
   z-index: -1;
 }
 
@@ -322,19 +329,18 @@ main {
 
 .players-country {
   color: #f53924;
-  font-size: 15px;
+  font-size: 17px;
   font-style: italic;
-  font-weight: bold;
 }
 
 .players-description {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @media (max-width: 420px) {
   .img-transparent-bkgrnd {
-    width: 17vh;
-    height: 18vh;
+    width: 7vh;
+    height: 8vh;
   }
 
   .players-images {
@@ -351,6 +357,7 @@ main {
   width: 100%;
   height: auto;
   background-color: black;
+  color: white;
 }
 
 .home-footer-logo {
@@ -399,13 +406,15 @@ main {
 
 .Welcome-to {
   display: flex;
-  align-self: start;
   color: #f53924;
   font-size: x-large;
   font-weight: bold;
 }
 
 .ICC-Mens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   color: transparent;
   font-size: 1.55rem !important;
@@ -425,10 +434,10 @@ main {
 }
 
 .about-info {
-  border: 5px solid white;
-  background-color: rgb(238, 238, 238);
-  padding: 10px;
   margin: 4vh 2vh 4vh 2vh;
+  padding: 2vh;
+  border: 5px solid rgb(238, 238, 238);
+  background-color: white;
   color: #172b4d;
 }
 
@@ -644,6 +653,8 @@ main {
 
   .desktop-menu-tags:hover {
     color: #ec5242;
+    transform: scale(1.2);
+    transition: 0.1s ease-in-out;
   }
 
   .menu-latesnews-desktop {
@@ -735,6 +746,20 @@ main {
     margin-left: 15px;
   }
 
+  .home-footer {
+    background-color: white;
+  }
+
+  .home-footer-text {
+    color: black;
+  }
+
+  .about-info-background {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .past-worldcup-winners-header {
     display: flex;
     justify-content: center;
@@ -760,6 +785,10 @@ main {
   }
 
   .about-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.88);
+  }
+
+  .about-footer-text {
+    color: white;
   }
 }
