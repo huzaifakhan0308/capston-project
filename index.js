@@ -1,5 +1,9 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable no-unused-vars */
+const playersName = document.querySelectorAll('.players-name');
+const playersCountry = document.querySelectorAll('.players-country');
+const playersDescription = document.querySelectorAll('.players-description');
+const playersBgImage = document.querySelectorAll('.img-transparent-bkgrnd');
+const playersImage = document.querySelectorAll('.players-images');
+
 const topPlayersInfo = [
   {
     name: 'Jos Buttler',
@@ -31,13 +35,7 @@ const topPlayersInfo = [
   },
 ];
 
-const playersName = document.querySelectorAll('.players-name');
-const playersCountry = document.querySelectorAll('.players-country');
-const playersDescription = document.querySelectorAll('.players-description');
-const playersBgImage = document.querySelectorAll('.img-transparent-bkgrnd');
-const playersImage = document.querySelectorAll('.players-images');
-
-for (let i = 0; i < playersName.length; i++) {
+for (let i = 0; i < playersName.length; i += 1) {
   playersName[i].innerHTML = topPlayersInfo[i].name;
   playersCountry[i].innerHTML = topPlayersInfo[i].country;
   playersDescription[i].innerHTML = topPlayersInfo[i].description;
@@ -45,51 +43,16 @@ for (let i = 0; i < playersName.length; i++) {
   playersImage[i].src = topPlayersInfo[i].image;
 }
 
-const desktopMenuHome = document.querySelector('.menu-home-desktop');
-const desktopMenuAbout = document.querySelector('.menu-about-desktop');
-
-const homePageSection = document.querySelector('.home-page-section');
-const aboutSection = document.querySelector('.about-section');
-
 const mobileMenu = document.querySelector('.mobile-menu');
 
 document.querySelector('nav').addEventListener('click', (e) => {
   if (e.target.classList[0] === 'navbar-lines-div-mobile' || e.target.classList[0] === 'lines') {
     mobileMenu.classList.add('mobile-menu-appear');
   }
-  if (e.target.classList[0] === 'menu-home-desktop') {
-    homePageSection.classList.remove('home-page-section-disappear');
-    aboutSection.classList.remove('about-section-apper');
-    desktopMenuHome.classList.remove('menu-home-desktop-appear');
-    desktopMenuAbout.classList.remove('menu-about-desktop-disappear');
-  }
-  if (e.target.classList[0] === 'menu-about-desktop') {
-    homePageSection.classList.add('home-page-section-disappear');
-    aboutSection.classList.add('about-section-apper');
-    desktopMenuHome.classList.add('menu-home-desktop-appear');
-    desktopMenuAbout.classList.add('menu-about-desktop-disappear');
-  }
 });
 
-const menuHome = document.querySelector('.menu-home');
-const menuAbout = document.querySelector('.menu-about');
-
-document.querySelector('.mobile-menu').addEventListener('click', (e) => {
+mobileMenu.addEventListener('click', (e) => {
   if (e.target.classList[0] === 'mobile-menu-disappear-btn') {
-    mobileMenu.classList.remove('mobile-menu-appear');
-  }
-  if (e.target.classList[0] === 'menu-home') {
-    menuHome.classList.remove('menu-home-appear');
-    menuAbout.classList.remove('menu-about-disappear');
-    homePageSection.classList.remove('home-page-section-disappear');
-    aboutSection.classList.remove('about-section-apper');
-    mobileMenu.classList.remove('mobile-menu-appear');
-  }
-  if (e.target.classList[0] === 'menu-about') {
-    menuHome.classList.add('menu-home-appear');
-    menuAbout.classList.add('menu-about-disappear');
-    homePageSection.classList.add('home-page-section-disappear');
-    aboutSection.classList.add('about-section-apper');
     mobileMenu.classList.remove('mobile-menu-appear');
   }
 });

@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: content-box;
+  list-style: none;
 }
 
 html {
@@ -36,7 +37,6 @@ hr {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   height: 8vh;
   position: fixed;
@@ -73,12 +73,21 @@ nav {
   display: none;
   align-items: center;
   flex-direction: column;
-  position: fixed;
   width: 100%;
   height: 100vh;
   background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0.78);
   z-index: 2;
+  position: absolute;
   background-image: url("assets/images/mobile\ homepage\ background.png");
+}
+
+.mobile-menu li {
+  width: 100%;
+}
+
+.mobile-menu-appear {
+  display: flex;
 }
 
 .mobile-menu-disappear-btn {
@@ -108,26 +117,6 @@ nav {
   background-color: rgba(0, 0, 0, 0.31);
 }
 
-.mobile-menu-appear {
-  display: flex;
-}
-
-.menu-home {
-  display: none;
-}
-
-.menu-home-appear {
-  display: flex;
-}
-
-.menu-about {
-  display: flex;
-}
-
-.menu-about-disappear {
-  display: none;
-}
-
 /* main */
 
 main {
@@ -144,10 +133,6 @@ main {
   align-items: center;
   flex-direction: column;
   width: 100%;
-}
-
-.home-page-section-disappear {
-  display: none;
 }
 
 .home-info-background {
@@ -218,6 +203,7 @@ main {
   margin-top: 4vh;
   color: white;
   font-size: x-large;
+  font-weight: lighter;
 }
 
 .Highlights-divs-container {
@@ -233,13 +219,13 @@ main {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 90%;
+  width: 85%;
   height: 12vh;
   margin-top: 1vh;
   background-color: rgba(255, 255, 255, 0.122);
   color: white;
   font-size: 11px;
-  padding: 5px;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -256,6 +242,7 @@ main {
   color: #f53924;
   font-size: 18px;
   padding: 20px;
+  font-weight: lighter;
 }
 
 .highlights-span-seeDetail {
@@ -282,6 +269,7 @@ main {
 .top-players-header {
   font-size: x-large;
   margin-top: 3vh;
+  font-weight: lighter;
 }
 
 .top-players-info-container {
@@ -358,6 +346,7 @@ main {
   height: auto;
   background-color: black;
   color: white;
+  margin-top: 1vh;
 }
 
 .home-footer-logo {
@@ -372,14 +361,10 @@ main {
 /* about */
 
 .about-section {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-
-.about-section-apper {
-  display: flex;
 }
 
 .about-info-background {
@@ -630,20 +615,9 @@ main {
     padding: 0 8vh 0 0;
   }
 
-  .menu-home-desktop {
-    display: none;
-  }
-
-  .menu-home-desktop-appear {
-    display: flex;
-  }
-
-  .menu-about-desktop {
-    display: flex;
-  }
-
-  .menu-about-desktop-disappear {
-    display: none;
+  .desktop-menu-tags-div li:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
   }
 
   .desktop-menu-tags {
@@ -653,19 +627,12 @@ main {
 
   .desktop-menu-tags:hover {
     color: #ec5242;
-    transform: scale(1.2);
-    transition: 0.1s ease-in-out;
   }
 
   .menu-latesnews-desktop {
     padding: 10px;
     color: #ec5242;
     border: 4px solid #ec5242;
-  }
-
-  .menu-latesnews-desktop:hover {
-    transform: scale(1.1);
-    transition: 0.1s ease-in-out;
   }
 
   .navbar-lines-div-mobile {
@@ -702,7 +669,7 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 16%;
+    width: 15%;
     height: 30vh;
     margin: 3px;
   }
