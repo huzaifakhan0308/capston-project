@@ -75,9 +75,9 @@ Open `index.html`.
 To run tests, run the following command:
 
 ```sh
-npm run stylelint
-npm run hint
-npm run eslint
+npx hint .
+npx stylelint "**/*.{css,scss}"
+npx eslint .
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
