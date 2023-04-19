@@ -87,8 +87,6 @@ npm run eslint
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - **[Online Coaching]**
 - **[Virtual Reality Training]**
 - **[Player Analytics]**
