@@ -32,9 +32,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Home and About pages]**
-- **[Transition and Animation]**
-- **[Added mobile-menu using media queries]**
+- **Home and About pages**
+- **Transition and Animation**
+- **Added mobile-menu using media queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,9 +87,9 @@ npm run eslint
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Online Coaching]**
-- **[Virtual Reality Training]**
-- **[Player Analytics]**
+- **Online Coaching**
+- **Virtual Reality Training**
+- **Player Analytics**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
