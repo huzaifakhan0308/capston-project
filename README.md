@@ -48,6 +48,12 @@
 
 > Just open index.html to open the project
 
+### Setup
+
+Clone this repository to your desired folder:
+
+  `git clone https://github.com/huzaifakhan0308/capston-project.git`
+
 ### Prerequisites
 
 In order to run the tests you need node.js installed.
