@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Capstone_project] <a name="about-project"></a>
+# 📖 Capstone_project <a name="about-project"></a>
 
 > In this capstone project I create a simple website for cricket academy information
 
