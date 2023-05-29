@@ -20,9 +20,19 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Capstone_project <a name="about-project"></a>
+# 📖 Cricket Academy Information <a name="about-project"></a>
 
 > In this capstone project I create a simple website for cricket academy information
+
+## Desktop Preview
+![Screenshot 2023-05-29 175315](https://github.com/huzaifakhan0308/capston-project/assets/114409312/15a4a2ef-73d9-452a-b55a-51260c1c4b0c)
+
+
+
+## Mobile Preview
+![Screenshot 2023-05-29 175426](https://github.com/huzaifakhan0308/capston-project/assets/114409312/08add166-cef7-4b31-b8d7-1bbd674c1ba7)
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
