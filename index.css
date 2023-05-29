@@ -128,13 +128,6 @@ main {
 
 /* home page */
 
-.home-page-section {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-
 .home-info-background {
   background-image: url("assets/images/mobile\ homepage\ background.png");
   width: 100%;
@@ -259,7 +252,9 @@ main {
   border: none;
 }
 
-.top-players-container {
+.top-players-container,
+.top-players-info-container,
+.top-players-container-for-desktop {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -270,20 +265,6 @@ main {
   font-size: x-large;
   margin-top: 3vh;
   font-weight: lighter;
-}
-
-.top-players-info-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-
-.top-players-container-for-desktop {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
 }
 
 .top-players-info-divs {
@@ -359,13 +340,6 @@ main {
 }
 
 /* about */
-
-.about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
 
 .about-info-background {
   background-image: url("assets/images/mobile\ homepage\ background.png");
@@ -639,10 +613,7 @@ main {
     border: 4px solid #ec5242;
   }
 
-  .navbar-lines-div-mobile {
-    display: none;
-  }
-
+  .navbar-lines-div-mobile,
   .mobile-menu {
     display: none;
   }
