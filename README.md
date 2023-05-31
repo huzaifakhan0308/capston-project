@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://huzaifakhan0308.github.io/capston-project/)
+- [Live Demo](https://huzaifakhan0308.github.io/capston-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
